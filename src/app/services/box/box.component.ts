@@ -6,12 +6,14 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./box.component.css']
 })
 export class BoxComponent {
-@Input() Delay:any;
-@Input() Título:any;
-@Input() Texto:any;
-@Input() Icono:any;
+@Input() delay: string ='';
+@Input() titulo: string ='';
+@Input() texto: string ='';
+@Input() icono: string ='';
 
 constructor(){
-   
+   console.log(this.titulo, this.texto)
 }
+
+
 }
