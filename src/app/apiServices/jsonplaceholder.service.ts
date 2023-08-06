@@ -12,6 +12,16 @@ export class JsonplaceholderService {
   constructor(private http:HttpClient) { }
   
   allPost(){
-    return this.http.get(this.url + 'post');
+    return this.http.get(this.url + 'posts');
   }
+
+  onePost(id:number){
+    //const postUrl= `${this.url}/posts/${id}`;
+    return this.http.get(this.url + 'posts/' + id);
+  }
+
+  commentsPost(id:number){
+    return this.http.get(this.url + 'posts/' + id + 'comments/');     
+  }
+
 }

@@ -15,6 +15,8 @@ import { ClientsComponent } from './clients/clients.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactComponent } from './contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
+import { OnePostComponent } from './one-post/one-post.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +32,15 @@ import { ContactComponent } from './contact/contact.component';
     ClientsComponent,
     TeamComponent,
     TestimonialsComponent,
-    ContactComponent
+    ContactComponent,
+    OnePostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

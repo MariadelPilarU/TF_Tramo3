@@ -11,8 +11,14 @@ export class BoxComponent {
 @Input() texto: string ='';
 @Input() icono: string ='';
 
+prueba = 'probando esto'
+
 constructor(){
    console.log(this.titulo, this.texto)
+}
+
+ngOnInit():void{
+  // console.log(this.titulo, this.texto)
 }
 
 

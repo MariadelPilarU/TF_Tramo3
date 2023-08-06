@@ -8,14 +8,16 @@
 
       <div class="row">
 
-    <app-box 
-        [delay=0] 
-        [titulo="'box 1'"] 
-        [texto="'prueba del texto'"] 
-        [icono="'ion-ios-analytics-outline'"]>
-    </app-box>
 
-    <!--<div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+        <app-box *ngFor="let post of posts" 
+        [delay]="'0'"
+        [titulo]="post.title" 
+        [texto]="post.body" 
+        [icono]="'ion-ios-analytics-outline'"> </app-box>
+
+
+
+      <!-- <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
           <div class="box">
             <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
             <h4 class="title"><a href="">Lorem Ipsum</a></h4>
@@ -63,4 +65,4 @@
       </div>
 
     </div>
-  </section>-->
+  </section> -->

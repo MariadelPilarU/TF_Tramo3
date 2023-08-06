@@ -10,11 +10,4 @@ export class AppComponent {
   Subtitle = "Probando subtitulo"
   colores=['rojo', 'amarillo', 'azul']
 
- // alerta(){
-   // alert('Hola pilu')
-    //console.log(this.colores)
-  //  this.colores.push('verde')
- // } 
-
-
 }
