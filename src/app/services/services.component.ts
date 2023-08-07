@@ -13,7 +13,7 @@ export class ServicesComponent {
   constructor (private jsonplaceholderService: JsonplaceholderService){
       this.jsonplaceholderService.allPost().subscribe(data =>{
        // console.log('All Posts:',data)
-       this.posts=data;  
+       this.posts = data;  
       });
   }
 

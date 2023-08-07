@@ -21,7 +21,7 @@ export class JsonplaceholderService {
   }
 
   commentsPost(id:number){
-    return this.http.get(this.url + 'posts/' + id + 'comments/');     
+    return this.http.get(this.url + 'posts/' + id + '/comments');     
   }
 
 }

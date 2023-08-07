@@ -12,8 +12,10 @@
         <app-box *ngFor="let post of posts" 
         [delay]="'0'"
         [titulo]="post.title" 
-        [texto]="post.body" 
-        [icono]="'ion-ios-analytics-outline'"> </app-box>
+        [texto]="post.body"
+        [id]="post.id"
+        [icono]="'ion-ios-analytics-outline'"> 
+        </app-box>
 
 
 
