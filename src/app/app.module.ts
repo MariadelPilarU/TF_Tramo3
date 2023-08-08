@@ -38,7 +38,7 @@ import { OnePostComponent } from './one-post/one-post.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
 
   providers: [],

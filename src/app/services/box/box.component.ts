@@ -6,20 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./box.component.css']
 })
 export class BoxComponent {
-@Input() delay: string ='';
-@Input() titulo: string ='';
-@Input() texto: string ='';
-@Input() icono: string ='';
+@Input('delay') delay: string ='';
+@Input('titulo') titulo: string ='';
+@Input('texto') texto: string ='';
+@Input('icono') icono: string ='';
+@Input('id') id: number = 0;
 
-prueba = 'probando esto'
-
-constructor(){
-   console.log(this.titulo, this.texto)
-}
-
-ngOnInit():void{
-  // console.log(this.titulo, this.texto)
-}
-
+constructor(){  }
 
 }

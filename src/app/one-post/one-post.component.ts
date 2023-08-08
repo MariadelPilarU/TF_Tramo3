@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { JsonplaceholderService } from '../apiServices/jsonplaceholder.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'app-one-post',
@@ -8,22 +8,23 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./one-post.component.css']
 })
 export class OnePostComponent {
-  post:any;
-  comments:any;
+  public post:any;
+  public comments:any;
 
-  constructor (private jsonplaceholderService: JsonplaceholderService,
-               private ruta: ActivatedRoute){ }
+  constructor (private jsonplaceholderService: JsonplaceholderService, private ruta: ActivatedRoute){ 
+   
+    this.ruta.paramMap.subscribe((params: ParamMap)=> {
+      this.onePost(params.get('id'));
+    });
+}
 
-  ngOnInit(): void{
-    let id = this.ruta.snapshot.params['id'];
-    
+  onePost(id: any) {
     this.jsonplaceholderService.onePost(id).subscribe(data =>{
-    this.post =data;
+      this.post = data;
     });
 
     this.jsonplaceholderService.commentsPost(id).subscribe(data =>{
       this.comments =data;
       });
-
-  }
-}
+    }
+  } 
