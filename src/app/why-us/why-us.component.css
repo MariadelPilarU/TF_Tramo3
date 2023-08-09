@@ -1,0 +1,73 @@
+#why-us {
+    padding: 60px 0;
+    background: #67595E;
+  }
+  
+  #why-us .section-header h3,
+  #why-us .section-header p {
+    color: #fff;
+  }
+  
+  #why-us .card {
+    background: #A49393;
+    border-color: none;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    color: #67595E;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+  }
+  
+  #why-us .card:hover {
+    background: #A49393;
+    border-color: none;
+  }
+  
+  #why-us .card i {
+    font-size: 48px;
+    padding-top: 15px;
+    color: #EED6D3;
+  }
+  
+  #why-us .card h5 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  #why-us .card p {
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  #why-us .card .readmore {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #why-us .card .readmore:hover {
+    border-bottom: #fff solid 2px;
+  }
+  
+  #why-us .counters {
+    padding-top: 40px;
+  }
+  
+  #why-us .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #fff;
+  }
+  
+  #why-us .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
