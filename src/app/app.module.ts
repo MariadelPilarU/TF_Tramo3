@@ -17,6 +17,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OnePostComponent } from './one-post/one-post.component';
+import { ArqServicesComponent } from './arq-services/arq-services.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { OnePostComponent } from './one-post/one-post.component';
     TeamComponent,
     TestimonialsComponent,
     ContactComponent,
-    OnePostComponent
+    OnePostComponent,
+    ArqServicesComponent
   ],
   imports: [
     BrowserModule,

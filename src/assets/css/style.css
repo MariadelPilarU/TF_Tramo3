@@ -12,18 +12,18 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 a {
-  color: #007bff;
+  color:  #ffffff;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #E8B4B8;
   outline: none;
   text-decoration: none;
 }
@@ -39,8 +39,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 100px;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #E8B4B8;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -88,7 +88,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #007bff;
+  border-top: 6px solid #E8B4B8;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -125,18 +125,18 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 25px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 70px;
   padding: 10px 0;
 }
 
@@ -152,14 +152,14 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #00366f;
+  color: #E8B4B8;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: -6.5px;
+  max-height: 65px;
 }
 
 .main-pages {
@@ -173,37 +173,41 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 650px 0 120px 0;
+  background-image: url("../img/casaDia.jpg"); 
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat;
+  background-size:cover;
+ 
 }
 
 #intro .intro-img {
-  width: 50%;
+  width: 30%;
   float: right;
 }
 
 #intro .intro-info {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 75px;
+  font-weight: 100;
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #fff;
   text-decoration: underline;
 }
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
@@ -215,8 +219,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #A49393;
+  border: 2px solid #A49393;
   color: #fff;
 }
 
@@ -228,11 +232,12 @@ h6 {
 
 #intro .intro-info .btn-services {
   border: 2px solid #fff;
+  color: #A49393;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: none;
+  border-color: #E9E7E8;
   color: #fff;
 }
 
@@ -263,18 +268,18 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #444;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 500;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #A49393;
   text-decoration: none;
 }
 
@@ -306,13 +311,13 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: #A49393;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color:#A49393;
 }
 
 .main-nav .drop-down > a:after {
@@ -374,7 +379,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color:#A49393;
   text-decoration: none;
 }
 
@@ -420,7 +425,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #A49393;
 }
 
 .mobile-nav-overly {
@@ -456,7 +461,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #A49393;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -467,7 +472,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #A49393;
   width: 50%;
 }
 
@@ -495,7 +500,7 @@ h6 {
 }
 
 #about .about-container .title {
-  color: #333;
+  color:  #E8B4B8;
   font-weight: 700;
   font-size: 32px;
 }
@@ -538,17 +543,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #A49393;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #A49393;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #A49393;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -563,7 +568,7 @@ h6 {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #A49393;
 }
 
 #about .about-container .icon-box .description {
@@ -629,7 +634,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #E8B4B8;
 }
 
 #services .description {
@@ -641,7 +646,7 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #67595E;
 }
 
 #why-us .section-header h3,
@@ -650,26 +655,26 @@ h6 {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #A49393;
+  border-color: none;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #67595E;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #A49393;
+  border-color: none;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #EED6D3;
 }
 
 #why-us .card h5 {
@@ -679,7 +684,7 @@ h6 {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: #fff;
 }
 
 #why-us .card .readmore {
@@ -687,7 +692,7 @@ h6 {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: fff; solid 2px;
 }
 
 #why-us .card .readmore:hover {
@@ -711,7 +716,7 @@ h6 {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: #fff;
 }
 
 /* Portfolio Section
