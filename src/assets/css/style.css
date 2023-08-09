@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color:  #ffffff;
+  color:  #fff;
   transition: 0.5s;
 }
 
@@ -151,7 +151,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #444;
+  color:  #444;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 22px;
@@ -194,13 +194,13 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #A49393;
+  color: #444;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color:#A49393;
+  color: #A49393;
 }
 
 .main-nav .drop-down > a:after {
@@ -308,7 +308,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #A49393;
+  color: #444;
 }
 
 .mobile-nav-overly {
@@ -344,7 +344,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #A49393;
+  color:  #444;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -355,7 +355,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #A49393;
+  color: #444;
   width: 50%;
 }
 
@@ -363,7 +363,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #fff;
 }
 
 /* About Us Section
