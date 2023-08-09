@@ -81,7 +81,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fff
+  border: 6px solid #fff;
   border-top: 6px solid #E8B4B8;
   border-radius: 50%;
   width: 60px;
@@ -130,10 +130,10 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
+/* .main-nav { */
   /* Drop Down */
   /* Deep Drop Down */
-}
+/* } */
 
 .main-nav,
 .main-nav * {
