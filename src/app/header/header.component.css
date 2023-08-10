@@ -1,4 +1,22 @@
 
+
+.section-header h3 {
+  font-size: 20px;
+  color:  #444;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 5 px;
+  padding-bottom: 60px;
+  color: #444;
+  width: 50%;
+}
+
 #header {
     height: 100px;
     transition: all 0.5s;
