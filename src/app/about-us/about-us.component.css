@@ -16,10 +16,12 @@
     color:  #E8B4B8;
     font-weight: 700;
     font-size: 32px;
+    text-align: left;
   }
   
   #about .about-container p {
     line-height: 26px;
+    text-align: left;
   }
   
   #about .about-container p:last-child {

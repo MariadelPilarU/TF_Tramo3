@@ -7,6 +7,7 @@ body {
   background: #fff;
   color: #444;
   font-family: 'Encode Sans', sans-serif;
+  text-align: center;
 }
 
 a {
@@ -25,6 +26,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  
 }
 
 h1,
