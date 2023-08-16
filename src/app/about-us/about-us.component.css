@@ -84,6 +84,7 @@
   
   #about .about-container .icon-box .title a {
     color: #A49393;
+    text-decoration: none;
   }
   
   #about .about-container .icon-box .description {
