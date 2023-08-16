@@ -26,6 +26,7 @@
     line-height: 24px;
     font-family: "Montserrat", sans-serif;
     color: #888;
+    text-align: left;
   }
   
   #contact .social-links {
@@ -41,7 +42,7 @@
     padding: 8px 0;
     margin-right: 4px;
     border-radius: 50%;
-    text-align: center;
+    text-align: left;
     width: 36px;
     height: 36px;
     transition: 0.3s;
@@ -62,6 +63,7 @@
     color:  #E8B4B8;
     float: left;
     line-height: 1;
+   
   }
   
   #contact .info p {
